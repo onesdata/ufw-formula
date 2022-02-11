@@ -8,7 +8,7 @@
 {%- if ufw.get('enabled', False) %}
 
 reload-ufw:
-  cmd.wait:
+  cmd.wait:  # noqa: 213
     - name: ufw reload
 
 {%- endif %}
