@@ -109,7 +109,6 @@ jobs:
     - env: INSTANCE=without-ipv6-centos-7-master-py3
     - env: INSTANCE=without-ipv6-fedora-36-master-py3
     - env: INSTANCE=without-ipv6-fedora-35-master-py3
-    - env: INSTANCE=without-ipv6-fedora-34-master-py3
     - env: INSTANCE=without-ipv6-opensuse-leap-153-master-py3
     # - env: INSTANCE=without-ipv6-opensuse-tmbl-latest-master-py3
     - env: INSTANCE=without-ipv6-amazonlinux-2-master-py3
@@ -133,7 +132,6 @@ jobs:
     # - env: INSTANCE=without-ipv6-centos-7-3004-1-py3
     # - env: INSTANCE=without-ipv6-fedora-36-3004-1-py3
     # - env: INSTANCE=without-ipv6-fedora-35-3004-1-py3
-    # - env: INSTANCE=without-ipv6-fedora-34-3004-1-py3
     # - env: INSTANCE=without-ipv6-amazonlinux-2-3004-1-py3
     # - env: INSTANCE=default-oraclelinux-8-3004-1-py3
     # - env: INSTANCE=without-ipv6-oraclelinux-7-3004-1-py3
@@ -154,14 +152,6 @@ jobs:
     # - env: INSTANCE=default-oraclelinux-8-3003-4-py3
     # - env: INSTANCE=without-ipv6-oraclelinux-7-3003-4-py3
     # - env: INSTANCE=default-almalinux-8-3003-4-py3
-    # - env: INSTANCE=default-debian-10-3002-8-py3
-    # - env: INSTANCE=without-ipv6-debian-9-3002-8-py3
-    # - env: INSTANCE=without-ipv6-ubuntu-2004-3002-8-py3
-    # - env: INSTANCE=without-ipv6-ubuntu-1804-3002-8-py3
-    # - env: INSTANCE=without-ipv6-centos-7-3002-8-py3
-    # - env: INSTANCE=without-ipv6-amazonlinux-2-3002-8-py3
-    # - env: INSTANCE=default-oraclelinux-8-3002-8-py3
-    # - env: INSTANCE=without-ipv6-oraclelinux-7-3002-8-py3
 
     ## Define the release stage that runs `semantic-release`
     - stage: 'release'
